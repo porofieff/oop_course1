@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Proc_Queue</class>
+ <widget class="QWidget" name="Proc_Queue">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1369</width>
+    <height>453</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>0</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Изменение порядка очереди</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="changeParamButtom">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>370</y>
+     <width>259</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(148, 212, 255);
+font: 12pt &quot;Noto Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Сохранить изменения</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>1311</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QTextEdit" name="procTime3"/>
+    </item>
+    <item row="0" column="5">
+     <widget class="QTextEdit" name="procTime6"/>
+    </item>
+    <item row="0" column="8">
+     <widget class="QTextEdit" name="procTime9"/>
+    </item>
+    <item row="0" column="7">
+     <widget class="QTextEdit" name="procTime8"/>
+    </item>
+    <item row="0" column="16">
+     <widget class="QTextEdit" name="procTime17"/>
+    </item>
+    <item row="0" column="12">
+     <widget class="QTextEdit" name="procTime13"/>
+    </item>
+    <item row="0" column="18">
+     <widget class="QTextEdit" name="procTime19"/>
+    </item>
+    <item row="0" column="14">
+     <widget class="QTextEdit" name="procTime15"/>
+    </item>
+    <item row="0" column="19">
+     <widget class="QTextEdit" name="procTime20"/>
+    </item>
+    <item row="0" column="13">
+     <widget class="QTextEdit" name="procTime14"/>
+    </item>
+    <item row="0" column="9">
+     <widget class="QTextEdit" name="procTime10"/>
+    </item>
+    <item row="0" column="4">
+     <widget class="QTextEdit" name="procTime5"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTextEdit" name="procTime2"/>
+    </item>
+    <item row="0" column="6">
+     <widget class="QTextEdit" name="procTime7"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QTextEdit" name="procTime1"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QTextEdit" name="procTime4"/>
+    </item>
+    <item row="0" column="15">
+     <widget class="QTextEdit" name="procTime16"/>
+    </item>
+    <item row="0" column="10">
+     <widget class="QTextEdit" name="procTime11"/>
+    </item>
+    <item row="0" column="17">
+     <widget class="QTextEdit" name="procTime18"/>
+    </item>
+    <item row="0" column="11">
+     <widget class="QTextEdit" name="procTime12"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>1311</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="9">
+     <widget class="QLineEdit" name="timeEdit10"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="timeEdit2"/>
+    </item>
+    <item row="0" column="7">
+     <widget class="QLineEdit" name="timeEdit8"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="timeEdit3"/>
+    </item>
+    <item row="0" column="13">
+     <widget class="QLineEdit" name="timeEdit14"/>
+    </item>
+    <item row="0" column="16">
+     <widget class="QLineEdit" name="timeEdit17"/>
+    </item>
+    <item row="0" column="19">
+     <widget class="QLineEdit" name="timeEdit20"/>
+    </item>
+    <item row="0" column="15">
+     <widget class="QLineEdit" name="timeEdit16"/>
+    </item>
+    <item row="0" column="8">
+     <widget class="QLineEdit" name="timeEdit19"/>
+    </item>
+    <item row="0" column="6">
+     <widget class="QLineEdit" name="timeEdit7"/>
+    </item>
+    <item row="0" column="10">
+     <widget class="QLineEdit" name="timeEdit11"/>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLineEdit" name="timeEdit5"/>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLineEdit" name="timeEdit6"/>
+    </item>
+    <item row="0" column="12">
+     <widget class="QLineEdit" name="timeEdit13"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="timeEdit4"/>
+    </item>
+    <item row="0" column="14">
+     <widget class="QLineEdit" name="timeEdit15"/>
+    </item>
+    <item row="0" column="17">
+     <widget class="QLineEdit" name="timeEdit18"/>
+    </item>
+    <item row="0" column="18">
+     <widget class="QLineEdit" name="timeEdit19_2"/>
+    </item>
+    <item row="0" column="11">
+     <widget class="QLineEdit" name="timeEdit12"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLineEdit" name="timeEdit1"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
