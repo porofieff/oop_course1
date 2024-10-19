@@ -2,12 +2,12 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <change_window.h>
+#include <proc_queue.h>
 
-QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
 }
-QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
@@ -17,7 +17,14 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_changeParamButtom_clicked();
+
+    void on_changeQueueButtom_clicked();
+
 private:
     Ui::MainWindow *ui;
+    Change_window *ch_par_window;
+    Proc_Queue *pr_queue;
 };
 #endif // MAINWINDOW_H

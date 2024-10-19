@@ -2,112 +2,32 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1402</width>
-    <height>833</height>
+    <width>1484</width>
+    <height>812</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>3375_Rybochkin_Porofiev</string>
   </property>
   <property name="styleSheet">
    <string notr="true">color: rgb(255, 255, 255);</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
+  <widget class="QWidget" name="MainWindow_2">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>280</y>
-      <width>481</width>
-      <height>461</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout_5">
-     <item row="0" column="0">
-      <widget class="QLabel" name="readyQueueLabel">
-       <property name="minimumSize">
-        <size>
-         <width>419</width>
-         <height>18</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Выполненые задач</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QTextBrowser" name="readyQueueText">
-       <property name="whatsThis">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Очередь задач:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget_4">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>70</y>
-      <width>171</width>
-      <height>191</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout_11">
-     <item row="0" column="0">
-      <widget class="QLabel" name="bestTimeLabel">
-       <property name="text">
-        <string>Лучшее время</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QLCDNumber" name="BestLsdNumber"/>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget_2">
-    <property name="geometry">
-     <rect>
-      <x>540</x>
-      <y>70</y>
-      <width>531</width>
-      <height>191</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout_12">
-     <item row="1" column="0">
-      <widget class="QTextBrowser" name="readyQueueText_2">
-       <property name="whatsThis">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Очередь задач:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="readyQueueLabel_2">
-       <property name="minimumSize">
-        <size>
-         <width>419</width>
-         <height>18</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Лучшее последовательность</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>1090</x>
-      <y>70</y>
+      <x>1130</x>
+      <y>20</y>
       <width>261</width>
       <height>191</height>
      </rect>
@@ -139,177 +59,51 @@ font: 12pt &quot;Noto Sans&quot;;</string>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>280</y>
-      <width>491</width>
-      <height>461</height>
+      <x>580</x>
+      <y>20</y>
+      <width>531</width>
+      <height>191</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout_2">
+    <layout class="QGridLayout" name="gridLayout_12">
+     <item row="1" column="0">
+      <widget class="QTextBrowser" name="BestReadyQueueText">
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Очередь задач:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
      <item row="0" column="0">
-      <widget class="QLabel" name="queueLabel">
+      <widget class="QLabel" name="BestReadyQueueLabel">
        <property name="minimumSize">
         <size>
          <width>419</width>
          <height>18</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
        <property name="text">
-        <string>Очередь задач</string>
+        <string>Лучшее последовательность</string>
        </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QTextBrowser" name="queueText">
-       <property name="whatsThis">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Очередь задач:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
       </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>280</y>
-      <width>111</width>
-      <height>461</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout_4">
-     <item row="4" column="0">
-      <widget class="QLCDNumber" name="lcdNumber_3"/>
-     </item>
-     <item row="6" column="0">
-      <widget class="QLCDNumber" name="lcdNumber_5"/>
-     </item>
-     <item row="5" column="0">
-      <widget class="QLCDNumber" name="lcdNumber_4"/>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLCDNumber" name="lcdNumber_2"/>
-     </item>
-     <item row="2" column="0">
-      <widget class="QLCDNumber" name="lcdNumber1"/>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>540</x>
-      <y>280</y>
-      <width>161</width>
-      <height>461</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout_3">
-     <item row="0" column="0">
-      <widget class="QPlainTextEdit" name="proc1">
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-         <hintingpreference>PreferFullHinting</hintingpreference>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">text-align: top center;</string>
-       </property>
-       <property name="plainText">
-        <string>Процессор 1</string>
-       </property>
-       <property name="backgroundVisible">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QPlainTextEdit" name="proc2">
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-         <hintingpreference>PreferFullHinting</hintingpreference>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">text-align: top center;</string>
-       </property>
-       <property name="plainText">
-        <string>Процессор 2</string>
-       </property>
-       <property name="backgroundVisible">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QPlainTextEdit" name="proc4">
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-         <hintingpreference>PreferFullHinting</hintingpreference>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">text-align: top center;</string>
-       </property>
-       <property name="plainText">
-        <string>Процессор 4</string>
-       </property>
-       <property name="backgroundVisible">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="QPlainTextEdit" name="proc5">
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-         <hintingpreference>PreferFullHinting</hintingpreference>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">text-align: top center;</string>
-       </property>
-       <property name="plainText">
-        <string>Процессор 5</string>
-       </property>
-       <property name="backgroundVisible">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QPlainTextEdit" name="proc3">
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-         <hintingpreference>PreferFullHinting</hintingpreference>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">text-align: top center;</string>
-       </property>
-       <property name="plainText">
-        <string>Процессор 3</string>
-       </property>
-       <property name="backgroundVisible">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>70</y>
+      <x>60</x>
+      <y>20</y>
       <width>291</width>
       <height>191</height>
      </rect>
@@ -321,6 +115,9 @@ font: 12pt &quot;Noto Sans&quot;;</string>
         <widget class="QLabel" name="currentTimeLabel">
          <property name="text">
           <string>Время выполнения</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
          </property>
         </widget>
        </item>
@@ -336,6 +133,9 @@ font: 12pt &quot;Noto Sans&quot;;</string>
          <property name="text">
           <string>Количество задач</string>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
         </widget>
        </item>
        <item row="1" column="0">
@@ -345,18 +145,263 @@ font: 12pt &quot;Noto Sans&quot;;</string>
      </item>
     </layout>
    </widget>
+   <widget class="QWidget" name="layoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>20</y>
+      <width>171</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_11">
+     <item row="0" column="0">
+      <widget class="QLabel" name="bestTimeLabel">
+       <property name="text">
+        <string>Лучшее время</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLCDNumber" name="BestLsdNumber"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>230</y>
+      <width>481</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QLabel" name="readyQueueLabel">
+       <property name="minimumSize">
+        <size>
+         <width>419</width>
+         <height>18</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Выполненые задач</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QTextBrowser" name="readyQueueText">
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Очередь задач:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>230</y>
+      <width>111</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="4" column="0">
+      <widget class="QLCDNumber" name="lcdNumber3"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLCDNumber" name="lcdNumber5"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLCDNumber" name="lcdNumber4"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLCDNumber" name="lcdNumber2"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLCDNumber" name="lcdNumber1"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>230</y>
+      <width>491</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="queueLabel">
+       <property name="minimumSize">
+        <size>
+         <width>419</width>
+         <height>18</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Очередь задач</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QTextBrowser" name="queueText">
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Очередь задач:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_8">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>230</y>
+      <width>161</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="3" column="0">
+      <widget class="QPlainTextEdit" name="proc4">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="plainText">
+        <string>Процессор 4</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPlainTextEdit" name="proc5">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="plainText">
+        <string>Процессор 5</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPlainTextEdit" name="proc3">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="plainText">
+        <string>Процессор 3</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPlainTextEdit" name="proc2">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="plainText">
+        <string>Процессор 2</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPlainTextEdit" name="proc1">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="plainText">
+        <string>Процессор 1</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1402</width>
+     <width>1484</width>
      <height>23</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
  </widget>
  <resources/>
  <connections/>
